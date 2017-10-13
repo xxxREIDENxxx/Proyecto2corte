@@ -8,8 +8,13 @@ public class Clientes {
 	private String empresa;
 	private float sueldo;
 	
-	public Clientes() {
-		// TODO Auto-generated constructor stub
+	public Clientes(String _nombre, String _apellido, int _edad, int _cedula, String _empresa, float _sueldo) {
+		nombre = _nombre;
+		apellido = _apellido;
+		edad = _edad;
+		cedula = _cedula;
+		empresa = _empresa;
+		sueldo = _sueldo;
 	}
 
 	public String getNombre() {
